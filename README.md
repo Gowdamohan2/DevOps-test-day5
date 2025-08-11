@@ -82,8 +82,8 @@ spec:
 minikube start
 minikube status
 ```
-![Minikube Start](./minikube%20start.png)  
-![Minikube Status](./minikube%20status.png)  
+![Minikube Start](./images.png/minikube%20start.png)  
+![Minikube Status](./images.png/minikube%20status.png)  
 
 ---
 
@@ -106,7 +106,7 @@ kubectl apply -f service.yaml
 kubectl get pods
 kubectl get svc
 ```
-![Pods and Services](./kubectl%20pods%20list.png)  
+![Pods and Services](./images.png/kubectl%20pods%20list.png)  
 
 ---
 
@@ -122,7 +122,7 @@ minikube service nginx-service
 kubectl scale deployment nginx-deployment --replicas=4
 kubectl get pods
 ```
-![Scaling Deployment](./replica%20pods.png)  
+![Scaling Deployment](./images.png/replica%20pods.png)  
 
 ---
 
@@ -130,7 +130,7 @@ kubectl get pods
 ```bash
 kubectl logs <pod-name>
 ```
-![Logs Output](./logs.png)  
+![Logs Output](./images.png/logs.png)  
 
 ---
 
